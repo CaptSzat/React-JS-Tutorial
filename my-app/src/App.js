@@ -6,9 +6,12 @@ function Header() {
   return <h1>Hello World! </h1>
  }
 
-function App() {
+export function App(props) {
   return (
-    <Header/>
+    <>
+      <Header/>
+      <h1>{props.title}</h1>
+    </>
   );
 }
 
