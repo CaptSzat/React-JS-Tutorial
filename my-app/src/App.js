@@ -8,7 +8,7 @@ function Header() {
 
 function App() {
   return (
-    <Heading/>
+    <Header/>
   );
 }
 
