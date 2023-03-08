@@ -1,10 +1,13 @@
 import React from "react";
 
 function UseStateExample() { 
-    const [ greet, setGreet ] = React.useState("Hello");
-    console.log(React.useState("Hello"));
+    const [ word, setWord ] = React.useState("Eat");
+    const handleClick = () => setWord("Drink");
     return(
-        <h1> {greet} </h1>
+        <>
+        <h1> {word + " at Little lemon"} </h1>
+        <button onClick={handleClick}>Change the word!</button>
+        </>
     )
  }
 
