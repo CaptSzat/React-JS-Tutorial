@@ -21,7 +21,11 @@
 import React from "react";
 
 function Button(){
-    const clickHandler = () => console.log('mouseOver')
+    let cartAmount = 0;
+    const clickHandler = () => {
+        cartAmount++;
+        console.log(cartAmount)
+    };
     return(
         <div>
             <button onMouseOver={clickHandler}>Press Me!</button>
