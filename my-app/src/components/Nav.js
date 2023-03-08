@@ -1,9 +1,18 @@
 import React from "react";
 
 function Nav(props){
+    const ulStyle ={
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "row",
+        listStyleType: "none",
+        gap: "2rem"
+      }
+
     return (
         <nav className="main-nav">
-            <ul>
+            <ul style={ulStyle}>
                 <li>{props.first}</li>
                 <li>{props.second}</li>
                 <li>{props.third}</li>
