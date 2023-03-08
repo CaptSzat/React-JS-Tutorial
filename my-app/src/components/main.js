@@ -3,11 +3,15 @@ import React from "react";
 function formatName(firstName, surname){
     return firstName + " " + surname;
 }
+// const url = "../img/Profile Image.png"
+
+// const result = <img src={url}></img>
+
 function Main(){
     return(
-        <p>
-            {formatName("Tom", "Szat")}
-        </p>
+        <div>
+            <p>{formatName("Tom", "Szat")}</p>
+        </div>
     )
 }
 
