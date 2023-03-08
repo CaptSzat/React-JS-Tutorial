@@ -7,6 +7,7 @@ import Main from './components/Main'
 import Logo from './components/Logo'
 import Button from "./components/Button";
 import "./index.css"
+import ModeToggler from './components/ModeToggler';
 
 
 export function App(props) {
@@ -16,6 +17,7 @@ export function App(props) {
       <Header name="Anna" color="purple"/>
       <Main/>
       <Logo test="pic"/>
+      <ModeToggler />
       <Button />
       <h1>{props.title}</h1>
     </>
