@@ -1,5 +1,4 @@
 import React from "react";
-
 function formatName(firstName, surname){
     return firstName + " " + surname;
 }

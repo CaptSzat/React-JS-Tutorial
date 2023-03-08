@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Header from './components/Header';
 import Main from './components/Main'
 import Logo from './components/Logo'
+import Button from "./components/Button";
 import "./index.css"
 
 
@@ -15,6 +16,7 @@ export function App(props) {
       <Header name="Anna" color="purple"/>
       <Main/>
       <Logo test="pic"/>
+      <Button />
       <h1>{props.title}</h1>
     </>
   );
