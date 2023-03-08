@@ -8,7 +8,7 @@ import Header from './components/Header';
 export function App(props) {
   return (
     <>
-      <Nav />
+      <Nav first="Home" second="Articles" third="About" fourth="Contact"/>
       <Header name="Anna" color="purple"/>
       <h1>{props.title}</h1>
     </>
