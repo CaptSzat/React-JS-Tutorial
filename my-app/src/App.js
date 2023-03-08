@@ -6,6 +6,7 @@ import Button from "./components/Button";
 import "./index.css"
 import ModeToggler from './components/ModeToggler';
 import Promo from './components/Promo';
+import UseStateExample from './components/UseStateExample'
 import Child from './components/Child';
 
 
@@ -18,6 +19,7 @@ export function App(props) {
       <Promo/>
       <Main/>
       <Child message={date.toLocaleTimeString()}/>
+      < UseStateExample />
       <Logo test="pic"/>
       <ModeToggler />
       <Button />
