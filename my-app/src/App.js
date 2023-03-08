@@ -8,6 +8,7 @@ import Logo from './components/Logo'
 import Button from "./components/Button";
 import "./index.css"
 import ModeToggler from './components/ModeToggler';
+import Promo from './components/Promo';
 
 
 export function App(props) {
@@ -15,6 +16,7 @@ export function App(props) {
     <>
       <Nav first="Home" second="Articles" third="About" fourth="Contact"/>
       <Header name="Anna" color="purple"/>
+      <Promo/>
       <Main/>
       <Logo test="pic"/>
       <ModeToggler />
