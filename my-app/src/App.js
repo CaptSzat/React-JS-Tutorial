@@ -2,16 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Heading from './components/Heading.js'
 import Nav from './components/Nav'
+import Header from './components/Header';
 
-function Header() { 
-  return <h1>Hello World! </h1>
- }
 
 export function App(props) {
   return (
     <>
-      <Nav/>
-      <Header/>
+      <Nav />
+      <Header name="Anna" color="purple"/>
       <h1>{props.title}</h1>
     </>
   );

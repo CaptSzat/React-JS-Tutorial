@@ -1,3 +1,5 @@
+import React from "react";
+
 function Heading() {  
     let title = "This is some heading text";
     return (
